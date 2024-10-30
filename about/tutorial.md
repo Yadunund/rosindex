@@ -1,3 +1,12 @@
+---
+layout: page
+title: Tutorial
+permalink: /about/tutorial/
+breadcrumbs: ['about']
+---
+
+# ROS Index Tutorial
+
 This guide introduces the standard way of searching for ROS 2 package-level documentation.
 There are thousands of ROS packages that encompass all aspects of robotics; everything from hardware drivers to high-level planning and navigation.
 Some of these packages exist solely as open source code, while others are distributed as binary packages that can be easily installed on a ROS system using tools like `apt`.
@@ -6,8 +15,7 @@ A good way to find a solution to many common robotics problems is to use ROS Ind
 Using ROS Index you can find binary ROS packages, the source code behind them, and their associated documentation  and  tutorials.
 
 
-Searching for ROS Packages
-----------------------------
+## Searching for ROS Packages
 
 Locate the search bar in the middle of the screen on `index.ros.org <https://index.ros.org/>`__:
 
@@ -21,8 +29,7 @@ After clicking the top package in the list, it will bring one to a page similar 
 
 <img style="margin-left: 40px; margin-right:40px; margin-bottom: 15px;" align="right" src="{{ '/assets/package_info.png' | prepend: site.baseurl }}" width="256">
 
-Breaking it Down
-~~~~~~~~~~~~~~~~
+## Breaking it Down
 
 1. `Package Description` The general description of the package, this should be similar to what was searched if it wasn't an exact package name.
 2. `Tutorials` If there are any tutorials available in the documentation they will show up here. Those looking to get started with a package should look here as the tutorials will often be up to date and well maintained by those who use the package often.
